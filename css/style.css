@@ -111,34 +111,39 @@ body{
     justify-content: space-around;
 }
 
-.more .card-section .card-row .card-imager img{
+.more .card-section .card-row .card-imager{
+    padding: 10px 10px;
+}
+
+.more .card-section .card-row .card-imager figure img{
     width: 100%;
 }
 
+.more .card-section .card-row .card-imager figure{
+    text-align: right;
+    font-size: 10px;
+    color: blue;
+    margin: 0px;
+    padding: 10px 10px,
+}
+
+.more .card-section .card-row .card-imager span.fig-topic{
+    margin: 5px 0px;
+}
+
+.more .card-section .card-row .card-imager span.card-date{
+    font-size: 11px;
+    color: gray;
+}
+
+/* aside bar starts here */
+/* ************************************************************************************** */
 .more .aside {
     width: 30%;
     background: red;
     margin: 20px 0px;
     padding: 40px 0px;
 }
-
-
-
-/* .more .more-wrapper .card-row{
-    width: 70%;
-}
-
-.more .more-wrapper .card-row{
-}
-
-.more .more-wrapper .card-row img{
-    max-width: 100%;
-} */
-
-
-
-/* aside bar starts here */
-/* ************************************************************************************** */
 
 
 /* footer starts here */
