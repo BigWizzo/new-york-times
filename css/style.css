@@ -1,0 +1,60 @@
+body{
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'navbar navbar navbar'
+    'main main main'
+    'more more aside'
+    'footer footer footer';
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+}
+
+.navbar {
+     grid-area: navbar;
+     background: blue;
+     margin: 20px 0px;
+     padding: 40px 0px;
+}
+
+.navbar .logo{
+    justify-content: center;
+}
+
+.navbar .navbar-btn{
+    justify-content: flex-end;
+}
+
+.main {
+    grid-area: main;
+    background: yellow;
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
+
+.more {
+    grid-area: more;
+    background: gray;
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
+
+.aside {
+    grid-area: aside;
+    background: red;
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
+
+.footer {
+    grid-area: footer;
+    background: orange;
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
