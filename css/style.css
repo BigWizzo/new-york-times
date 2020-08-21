@@ -102,6 +102,10 @@ body{
     padding: 40px 0px;
 }
 
+.more .more-wrapper .card-row{
+    justify-content: space-around;
+}
+
 /* aside bar starts here */
 /* ************************************************************************************** */
 
