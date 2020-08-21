@@ -12,23 +12,72 @@ body{
 }
 
 .flex{
-    display: flex;
-    width: 100%;
+   display: flex;
+   width: 100%;
 }
 
+/* navbar starts here */
+/* ************************************************************************************* */
+
 .navbar {
-     grid-area: navbar;
-     margin: 20px 0px;
-     padding: 40px 0px;
+    grid-area: navbar;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 6px;
+}
+
+.navbar .nav-icon {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.nav-icon > i{
+    padding: 0px 10px;
+}
+
+.nav-icon > span{
+    padding: 0px 10px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 14.25px;
+    font-weight: 700;
 }
 
 .navbar .logo{
     justify-content: center;
+    max-height: 26px;
 }
 
 .navbar .nav-btn{
     justify-content: flex-end;
+    padding-right: 10px;
 }
+
+.navbar .nav-btn div button{
+    margin-right:5px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #567b95;
+    border: 1px solid #567b95;
+    padding: 8px;
+}
+
+.navbar .nav-btn div button:hover{
+    margin-right:5px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+    background-color: #326891;
+    border: 1px solid #326891;
+}
+
+/* main section starts here */
+/* ************************************************************************************* */
 
 .main {
     grid-area: main;
@@ -37,6 +86,9 @@ body{
     padding: 40px 0px;
 }
 
+/* read more section starts here */
+/* ************************************************************************************** */
+
 .more {
     grid-area: more;
     background: gray;
@@ -44,12 +96,18 @@ body{
     padding: 40px 0px;
 }
 
+/* aside bar starts here */
+/* ************************************************************************************** */
+
 .aside {
     grid-area: aside;
     background: red;
     margin: 20px 0px;
     padding: 40px 0px;
 }
+
+/* footer starts here */
+/* ************************************************************************************** */
 
 .footer {
     grid-area: footer;
