@@ -7,7 +7,7 @@ body{
   grid-template-areas:
     'navbar navbar navbar'
     'main main main'
-    'more more aside'
+    'more more more'
     'footer footer footer';
 }
 
@@ -97,24 +97,49 @@ body{
 
 .more {
     grid-area: more;
+    width:100%;
     background: gray;
     margin: 20px 0px;
     padding: 40px 0px;
 }
 
-.more .more-wrapper .card-row{
+.more .card-section{
+    width: 70%;
+}
+
+.more .card-section .card-row{
     justify-content: space-around;
 }
 
-/* aside bar starts here */
-/* ************************************************************************************** */
+.more .card-section .card-row .card-imager img{
+    width: 100%;
+}
 
-.aside {
-    grid-area: aside;
+.more .aside {
+    width: 30%;
     background: red;
     margin: 20px 0px;
     padding: 40px 0px;
 }
+
+
+
+/* .more .more-wrapper .card-row{
+    width: 70%;
+}
+
+.more .more-wrapper .card-row{
+}
+
+.more .more-wrapper .card-row img{
+    max-width: 100%;
+} */
+
+
+
+/* aside bar starts here */
+/* ************************************************************************************** */
+
 
 /* footer starts here */
 /* ************************************************************************************** */
