@@ -11,9 +11,15 @@ body{
     'footer footer footer';
 }
 
-.flex{
+.flex-row{
    display: flex;
+   flex-direction: row;
    width: 100%;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;    
 }
 
 /* navbar starts here */
