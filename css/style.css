@@ -97,10 +97,11 @@ body{
 
 .more {
     grid-area: more;
-    width:100%;
-    background: gray;
     margin: 20px 0px;
-    padding: 40px 0px;
+    padding: 40px 140px;
+    background: gray;
+
+
 }
 
 .more .card-section{
@@ -138,11 +139,10 @@ body{
 
 /* aside bar starts here */
 /* ************************************************************************************** */
-.more .aside {
+.aside {
     width: 30%;
     background: red;
-    margin: 20px 0px;
-    padding: 40px 0px;
+    padding: 10px 10px;
 }
 
 
