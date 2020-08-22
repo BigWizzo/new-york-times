@@ -2,6 +2,14 @@ body{
 
 }
 
+h2{
+    margin: 0px;
+    padding-top: 10px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -97,15 +105,12 @@ body{
 
 .more {
     grid-area: more;
-    margin: 20px 0px;
-    padding: 40px 140px;
-    background: gray;
-
-
+    margin: 0px 180px;
 }
 
 .more .card-section{
-    width: 70%;
+    width: 80%;
+    border-top: 0.5px solid gray;
 }
 
 .more .card-section .card-row{
@@ -123,7 +128,7 @@ body{
 .more .card-section .card-row .card-imager figure{
     text-align: right;
     font-size: 10px;
-    color: blue;
+    color: #999999;
     margin: 0px;
     padding: 10px 10px,
 }
@@ -137,12 +142,31 @@ body{
     color: gray;
 }
 
+.astronomer{
+    padding-left: 10px;
+}
+
 /* aside bar starts here */
 /* ************************************************************************************** */
 .aside {
     width: 30%;
-    background: red;
-    padding: 10px 10px;
+    margin-left: 40px;
+    border-top: 1px solid gray;
+}
+
+.aside-topic h3{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+.aside-topic h3 a{
+    font-size: 19px;
+    line-height: 23px;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 
