@@ -175,7 +175,36 @@ h2{
 
 .footer {
     grid-area: footer;
-    background: orange;
-    margin: 20px 0px;
-    padding: 40px 0px;
+    margin: 20px 142px;
+    padding: 10px 47px;
+}
+
+.footer .footer-content{
+    justify-content: space-around;
+}
+
+.footer .footer-wrapper .footer-head{
+    max-height: 34px;
+    border-top: #d0d0d0  double;
+    padding-top: 10px;
+}
+
+.footer .footer-wrapper .footer-head .footer-logo svg{
+    height: 100%;
+
+}
+
+.border-left{
+    border-left: 1px solid black;
+    padding-left: 15px;
+
+}
+
+.footer-foot{
+    border-top: 1px solid #666;
+    margin-top: 10px;
+    color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 11px;
+    justify-content: space-evenly;
 }
