@@ -33,9 +33,57 @@ body{
 
 .main {
     grid-area: main;
+    width: 80%;
     background: yellow;
-    margin: 20px 0px;
-    padding: 40px 0px;
+    padding: 400px 0;
+    z-index:4;
+}
+
+.main-image h1 {
+    font-family: 'Cheltenham';
+    src: url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.eot");
+    font-style: italic;
+    font-weight: 700px;
+    position absolute;
+    line-height: 2.25rem;
+    color: black;
+    border-left: 50px;
+    z-index:4;
+}
+
+#space-ripple {
+    position:absolute
+    z-index:4;
+}
+
+.main-image {
+    max-height: 200px;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+.main-image h1 {
+margin-bottom: 1rem;
+}
+
+@font-face {
+    font-family: "Cheltenham"; 
+    src: url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.eot");
+}
+
+.author {
+    font-size: 12px;
+    opacity: .7;
+}
+
+.by-author  {
+    border: 1px solid black;
+    background-color: chartreuse;
+    position: absolute;
+    z-index: inherit 4;
+
 }
 
 .more {
@@ -43,6 +91,7 @@ body{
     background: gray;
     margin: 20px 0px;
     padding: 40px 0px;
+    z-index: inherit 1;
 }
 
 .aside {
@@ -50,6 +99,7 @@ body{
     background: red;
     margin: 20px 0px;
     padding: 40px 0px;
+    z-index: inherit 2;;
 }
 
 .footer {
@@ -57,4 +107,5 @@ body{
     background: orange;
     margin: 20px 0px;
     padding: 40px 0px;
+    z-index: inherit 3;
 }
