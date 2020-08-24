@@ -100,10 +100,46 @@ h3{
 
 .main {
     grid-area: main;
-    background: yellow;
-    margin: 20px 0px;
-    padding: 40px 0px;
 }
+
+/* .main-image h1 {
+
+}
+
+#space-ripple {
+    position:absolute;
+    z-index: 4;
+}
+
+.main-image {
+    max-height: 200px;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+.main-image h1 {
+margin-bottom: 1rem;
+}
+
+@font-face {
+    font-family: "Cheltenham"; 
+    src: url("//db.onlinewebfonts.com/t/415c1cffdc1ffdf955cdd328ad4a4c87.eot");
+}
+
+.author {
+    font-size: 12px;
+    opacity: .7;
+}
+
+.by-author  {
+    border: 1px solid black;
+    background-color: chartreuse;
+    position: absolute;
+    z-index: inherit 4;
+
+} */
 
 /* read more section starts here */
 /* ************************************************************************************** */
@@ -154,6 +190,7 @@ h3{
 /* aside bar starts here */
 /* ************************************************************************************** */
 .aside {
+    grid-area: aside;
     width: 30%;
     margin-left: 40px;
     border-top: 1px solid gray;
@@ -221,7 +258,6 @@ h3{
 
 .footer .footer-wrapper .footer-head .footer-logo svg{
     height: 100%;
-
 }
 
 .border-left{
