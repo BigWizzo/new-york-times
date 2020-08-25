@@ -190,6 +190,7 @@ h3{
 
 .evidence-fig-div figure img{
     width: 100%;
+    height: 150px;
 }
 
 figcaption.uni-box .fig-topic{
@@ -237,6 +238,10 @@ figcaption.uni-box .fig-story{
     justify-content: space-between;
     align-items: center;
     margin: 20px 0px
+}
+
+.media-share{
+    margin-right: 220px;
 }
 
 .comments-share div.comments-button{
