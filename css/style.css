@@ -116,6 +116,10 @@ h3{
     font-style: italic;
 }
 
+.main-wrapper h3{
+    margin: 0 220px;
+}
+
 .main-wrapper .main-image{
 }
 
@@ -160,13 +164,58 @@ h3{
     text-align: center;
 }
 
+.main-wrapper .thanks-for .reading{
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.main-wrapper .thanks-for .subscribe a{
+    text-align: center;
+    text-decoration: none;
+    color: #326891;
+    font-weight: bold;
+}
+
+.main-wrapper .thanks-for .subscribe a{
+    text-decoration: none;
+}
+
+.evidence-fig-div figure{
+    margin: 10px 5px;
+}
+
 .evidence-fig-div figure img{
     width: 100%;
+}
+
+figcaption.uni-box .fig-topic{
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+}
+
+figcaption.uni-box .fig-story{
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.main-wrapper .youtube-video figure{
+    margin: 0 220px;
+}
+
+.youtube-video figure figcaption{
+    color: #3b3b3b;
 }
 
 .telescope-fig figure img{
     width: 100%;
 }
+
+
 
 /* read more section starts here */
 /* ************************************************************************************** */
