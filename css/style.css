@@ -17,6 +17,11 @@ h3{
     padding: 10px 0px;
 }
 
+.fab, .fas, .far {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -106,7 +111,6 @@ h3{
 
 .main-wrapper{
     margin: 0px 100px;
-    background: #dfdfdf;
 }
 
 .main-wrapper h1 {
@@ -152,7 +156,7 @@ h3{
 }
 
 .time-icons .media-share{
-    margin: 10px 220px;
+    margin: 10px 220px 10px auto;
 }
 
 .main-wrapper .p-div{
@@ -211,8 +215,48 @@ figcaption.uni-box .fig-story{
     color: #3b3b3b;
 }
 
+.telescope-fig figure{
+    margin: 0 220px;
+}
+
+.telescope-fig figure figcaption{
+    color: #3d3c3c;
+}
+
 .telescope-fig figure img{
     width: 100%;
+}
+
+.last-remarks p{
+    margin: 0 220px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.comments-share{
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px
+}
+
+.comments-share div.comments-button{
+    margin: 0px 0px 0px 220px;
+}
+
+.comments-share div.comments-button button{
+    background-color: rgb(86, 123, 149);
+    color: white;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 5px 50px;
+    border-color: rgb(86, 123, 149);
+    border: 1px solid rgb(86, 123, 149);
 }
 
 
