@@ -105,7 +105,7 @@ h3{
 }
 
 .main-wrapper{
-    /* margin: 0px 40px; */
+    margin: 0px 100px;
     background: #999999;
 }
 
@@ -118,8 +118,9 @@ h3{
     width: 100%;
 }
 
-/* 
 
+
+/* 
 .main-wrapper .main-image{
     text-align: center;
 }
