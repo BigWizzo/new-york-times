@@ -1,5 +1,7 @@
-body{
-
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 h2{
@@ -18,10 +20,10 @@ h3{
 .grid-container {
   display: grid;
   grid-template-areas:
-    'navbar navbar navbar'
-    'main main main'
-    'more more more'
-    'footer footer footer';
+    'navbar'
+    'main'
+    'more'
+    'footer';
 }
 
 .flex-row{
@@ -102,39 +104,40 @@ h3{
     grid-area: main;
 }
 
-.main h1 {
+.main-wrapper{
+    /* margin: 0px 40px; */
+    background: #999999;
+}
+
+.main-wrapper h1 {
     font-family: "Cheltenham"; 
     text-align: center;
 }
 
-#space-ripple {
+.main-wrapper .main-image .space-ripple{
+    width: 100%;
+}
+
+/* 
+
+.main-wrapper .main-image{
+    text-align: center;
+}
+
+.main-image figcaption{
+    text-align: left;
+}
+
+.main-image .space-ripple {
     width: 80%;
 }
 
-.by-author {
-    margin: 0 80px;
-}
-
 .time-icons {
-    justify-content: space-between;
-    margin: 0 80px;
+    justify-content: center;
 }
 
-.artical-content p {
-    font-size: 100%;
-    vertical-align: baseline;
-    margin: 0 80px 80px;
-}
-
-hr {
-    display: block;
-    width: 30%;
-    margin-top: 0.5em;
-    margin=bottom 0.5em;
-}
-
-ol, ul {
-    list-style: none;
+.main-wrapper div p, .by-author span, .time-icons {
+    margin: 20px 300px;
 }
 
 .thanks-for {
@@ -153,14 +156,16 @@ ol, ul {
 }
 
 .subscribe-link {
-    font-family: var(--helvetica-font-family)
+    font-family: var(--helvetica-font-family);
     text-justify: distribute;
     color: rgb(50, 104, 145);
-}
-=================================
+} */
+
+/* =================================
 Containter list
-==================================
-.container {
+================================== */
+
+/* .container {
     grid-area: container;
     margin: 0px 180px;
 }
@@ -184,7 +189,7 @@ container-evidence {
 .uni-box {
 width: 240px;
 border: 1px solid black;
-}
+} */
 
 /* .main-image h1 {
 
