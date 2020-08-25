@@ -106,20 +106,37 @@ h3{
 
 .main-wrapper{
     margin: 0px 100px;
-    background: #999999;
+    background: #dfdfdf;
 }
 
 .main-wrapper h1 {
-    font-family: "Cheltenham"; 
+    font-family: "Cheltenham, nyt-cheltenham, georgia, "times new roman", times, serif"; 
     text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.main-wrapper .main-image{
 }
 
 .main-wrapper .main-image .space-ripple{
     width: 100%;
 }
 
+.main-wrapper .main-image .caption {
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+}
+
+.main-wrapper .main-image .author {
+    font-size: 15px;
+    color: rgb(136, 136, 136);
+}
 .main-wrapper .by-author{
-    margin-left: 30px;
+    margin: 10px 220px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #343434;
 }
 
 .main-wrapper .time-icons{
@@ -127,15 +144,16 @@ h3{
 }
 
 .time-icons .time{
-    margin-left: 30px;
+    margin: 10px 220px;
 }
 
 .time-icons .media-share{
-    margin-right: 30px;
+    margin: 10px 220px;
 }
 
 .main-wrapper .p-div{
-    margin: 0px 40px;
+    margin: 0 220px;
+    font-size: 20px;
 }
 
 .main-wrapper .thanks-for{
