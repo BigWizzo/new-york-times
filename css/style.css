@@ -134,6 +134,17 @@ h3{
     margin-right: 30px;
 }
 
+.main-wrapper .p-div{
+    margin: 0px 40px;
+}
+
+.main-wrapper .thanks-for{
+    text-align: center;
+}
+
+.evidence-fig-div figure img{
+    width: 100%;
+}
 
 
 /* 
