@@ -118,6 +118,22 @@ h3{
     width: 100%;
 }
 
+.main-wrapper .by-author{
+    margin-left: 30px;
+}
+
+.main-wrapper .time-icons{
+    justify-content: space-between;
+}
+
+.time-icons .time{
+    margin-left: 30px;
+}
+
+.time-icons .media-share{
+    margin-right: 30px;
+}
+
 
 
 /* 
