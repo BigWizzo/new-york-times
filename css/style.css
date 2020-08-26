@@ -4,6 +4,10 @@ html{
     padding: 0px;
 }
 
+h1 {
+    padding: 50px;
+}
+
 h2{
     margin: 0px;
     padding-top: 10px;
@@ -49,6 +53,8 @@ h3{
     grid-area: navbar;
     border-bottom: 1px solid #dfdfdf;
     padding-bottom: 6px;
+    position: fixed;
+    background-color: white;
 }
 
 .navbar .nav-icon {
@@ -124,7 +130,14 @@ h3{
     margin: 0 220px;
 }
 
+.inflation-h3 {
+    margin: 0px;
+}
+
 .main-wrapper .main-image{
+    width: 945px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main-wrapper .main-image .space-ripple{
@@ -326,7 +339,7 @@ figcaption.uni-box .fig-story{
 }
 
 .aside-topic h3 a{
-    font-size: 19px;
+    font-size: 15px;
     line-height: 23px;
     color: rgb(18, 18, 18);
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
