@@ -5,7 +5,13 @@ html{
 }
 
 h1 {
-    padding: 50px;
+    font-family: "Cheltenham, nyt-cheltenham, georgia, "times new roman", times, serif"; 
+    font-size: 40px;
+    font-style: italic;
+    padding: 70px 0px 10px 0px;
+    width: 600px;
+    margin: 0px auto;
+    text-align: left;
 }
 
 h2{
@@ -55,6 +61,8 @@ h3{
     padding-bottom: 6px;
     position: fixed;
     background-color: white;
+    padding-top: 10px;
+    margin-top: -10px; 
 }
 
 .navbar .nav-icon {
@@ -119,13 +127,6 @@ h3{
     margin: 0px 100px;
 }
 
-.main-wrapper h1 {
-    font-family: "Cheltenham, nyt-cheltenham, georgia, "times new roman", times, serif"; 
-    text-align: center;
-    font-size: 40px;
-    font-style: italic;
-}
-
 .main-wrapper h3{
     margin: 0 220px;
 }
@@ -180,7 +181,7 @@ h3{
 
 .main-wrapper .editors-picks .div-right {
     width: 80%;
-    padding: 33px;
+    padding: 400px 33px 33px 33px;
     margin: auto 0px auto 0px;
 }
 
@@ -210,8 +211,41 @@ h3{
     text-decoration: none;
 }
 
+h4{
+    margin-left: 20px;
+}
+
+.editor-col{
+    padding: 20px 0px;
+    border-top: 1px solid #dadada;
+}
+.editor-col .editor-row{
+    padding: 5px 0px;
+}
+
+.editor-col .editor-row .editor-image{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}
+
 .editor-col .editor-row .editor-image img{
-    width: 100%;
+    width: 75px;
+}
+
+.editor-col .editor-row span{
+    margin-left: 8px;
+    font-size: 12px;
+    width: 100px;
+}
+
+.editor-col .editor-row span a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+.editor-col .editor-row span a:hover{
+    text-decoration: underline;
 }
 
 .evidence-fig-div figure{
