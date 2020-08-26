@@ -4,7 +4,7 @@
 
 The New York Times Page Clone: positioning-and-floating-elements
 
-![screenshot](./app_screenshot.png)
+![screenshot](images/nyt_screenshot.png)
 
 This a clone of New York Times page. It has a navigation bar, share icons, subscription buttons, aside bar and embedded video.
 
@@ -48,8 +48,8 @@ Log on to the Github and clone the repository to your local machine.
 👤 **Willard Nyamunokora**
 
 - Github: [@githubhandle](https://github.com/BigWizzo)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/@willardfarai)
+- Linkedin: [linkedin](https://www.linkedin.com/in/willard-nyamunokora-7b2926a1/)
 
 ## 🤝 Contributing
 
