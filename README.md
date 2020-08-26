@@ -48,8 +48,8 @@ Log on to the Github and clone the repository to your local machine.
 👤 **Willard Nyamunokora**
 
 - Github: [@githubhandle](https://github.com/BigWizzo)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/@willardfarai)
+- Linkedin: [linkedin](https://www.linkedin.com/in/willard-nyamunokora-7b2926a1/)
 
 ## 🤝 Contributing
 
