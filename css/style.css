@@ -153,6 +153,7 @@ h3{
     font-size: 15px;
     color: rgb(136, 136, 136);
 }
+
 .main-wrapper .by-author{
     margin: 10px 220px;
     font-size: 15px;
@@ -172,28 +173,40 @@ h3{
     margin: 10px 220px 10px auto;
 }
 
+.main-wrapper .editors-picks .div-left .editors-left{
+    margin: 0px 0px 0px 220px;
+    font-size: 20px;
+}
+
+.main-wrapper .editors-picks .div-right {
+    width: 80%;
+    padding: 33px;
+    margin: auto 0px auto 0px;
+}
+
 .main-wrapper .p-div{
     margin: 0 220px;
     font-size: 20px;
 }
 
-.main-wrapper .thanks-for{
+.main-wrapper .editors-mid{
     text-align: center;
+    margin-left: 220px;
 }
 
-.main-wrapper .thanks-for .reading{
+.editors-mid .reading{
     font-weight: bold;
     color: #3a3a3a;
 }
 
-.main-wrapper .thanks-for .subscribe a{
+.editors-mid .subscribe a{
     text-align: center;
     text-decoration: none;
     color: #326891;
     font-weight: bold;
 }
 
-.main-wrapper .thanks-for .subscribe a{
+.editors-mid .subscribe a{
     text-decoration: none;
 }
 
