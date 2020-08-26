@@ -210,6 +210,10 @@ h3{
     text-decoration: none;
 }
 
+.editor-col .editor-row .editor-image img{
+    width: 100%;
+}
+
 .evidence-fig-div figure{
     margin: 10px 5px;
 }
