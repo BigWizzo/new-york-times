@@ -4,7 +4,7 @@
 
 The New York Times Page Clone: positioning-and-floating-elements
 
-![screenshot](/images/nyt_screenshot.jpg)
+![screenshot](.images/nyt_screenshot.jpg)
 
 This a clone of New York Times page. It has a navigation bar, share icons, subscription buttons, aside bar and embedded video.
 
