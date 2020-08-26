@@ -248,6 +248,15 @@ h4{
     text-decoration: underline;
 }
 
+.evidence-section .inflation-h3{
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.evidence-section .inflation-div p{
+    margin: 0px;
+}
+
 .evidence-fig-div figure{
     margin: 10px 5px;
 }
