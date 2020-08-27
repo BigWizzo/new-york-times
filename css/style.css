@@ -47,7 +47,6 @@ h3 {
 .flex-row {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .flex-col {
@@ -57,6 +56,10 @@ h3 {
 
 .width-hundred {
   width: 100%;
+}
+
+.text-deco-none{
+  text-decoration: none;
 }
 
 .navbar {
@@ -225,7 +228,6 @@ h3 {
   line-height: 23px;
   color: rgb(18, 18, 18);
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  text-decoration: none;
   font-weight: 500;
 }
 
@@ -425,6 +427,7 @@ figcaption.uni-box .fig-story {
 
 .footer-logo {
   width: 85%;
+  height: 25px;
 }
 
 .footer .footer-content {
