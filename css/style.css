@@ -464,3 +464,40 @@ figcaption.uni-box .fig-story {
   padding: 10px 0;
   text-decoration: none;
 }
+
+.fixed-footer {
+  background-color:white;
+  position: fixed;
+  bottom:0px;
+  color:black;
+  text-align: center;
+  cursor:pointer;
+  padding: 0.9rem;
+  border-top: 1px solid #c1c1c1;
+}
+
+.width-size {
+  width: 100%;
+}
+
+.subscribe-span {
+  width: 70%;
+  font-weight: bold;
+}
+
+.subscribe-div {
+  width: 80%;
+  text-align: center;
+}
+
+.expand1 {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+.fa-fas {
+  font-style: oblique;
+  font-weight: bolder;
+}
