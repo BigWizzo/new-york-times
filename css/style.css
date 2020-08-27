@@ -82,6 +82,9 @@ h3 {
 
 .navbar .logo {
   justify-content: center;
+}
+
+.navbar .logo a svg {
   max-height: 26px;
 }
 
