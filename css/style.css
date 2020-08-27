@@ -105,8 +105,8 @@ a:hover {
   justify-content: center;
 }
 
-.navbar .logo a svg {
-  max-height: 26px;
+.navbar .logo a img {
+  height: 30px;
 }
 
 .navbar .nav-btn {
