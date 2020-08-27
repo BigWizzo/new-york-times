@@ -56,25 +56,24 @@ h3 {
   width: 100%;
 }
 
-.text-deco-none{
+.text-deco-none {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.font-11{
+.font-11 {
   font-size: 11px;
-
 }
 
-.margin-0220{
+.margin-0220 {
   margin: 0 220px;
 }
 
 .margin-0 {
-  margin: 0px;
+  margin: 0;
 }
 
 .navbar {
@@ -119,7 +118,7 @@ a:hover{
   background-color: rgb(86, 123, 149);
   color: white;
   display: block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  font-family: georgia, times, serif, sans-serif, arial;
   font-size: 13px;
   font-weight: 100;
   letter-spacing: 0.06em;
@@ -357,6 +356,7 @@ figcaption.uni-box .fig-story {
   text-align: right;
   font-size: 10px;
   color: #999;
+
   /* margin: 0; */
   padding: 10px 10px;
 }
@@ -423,18 +423,18 @@ figcaption.uni-box .fig-story {
 
 .footer-foot {
   border-top: 1px solid #666;
-  margin: 10px 0px 20px 0px;;
+  margin: 10px 0 20px 0;
   justify-content: space-evenly;
   padding: 10px 0;
 }
 
 .fixed-footer {
-  background-color:white;
+  background-color: white;
   position: fixed;
-  bottom:0px;
-  color:black;
+  bottom: 0;
+  color: black;
   text-align: center;
-  cursor:pointer;
+  cursor: pointer;
   padding: 0.9rem;
   border-top: 1px solid #c1c1c1;
 }
