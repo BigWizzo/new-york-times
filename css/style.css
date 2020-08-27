@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: arial, helvetica, sans-serif;
 }
 
 h1 {
@@ -15,15 +16,12 @@ h1 {
 }
 
 h2 {
-  margin: 0;
   padding-top: 10px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
 }
 
 h3 {
-  margin: 0;
   padding: 10px 0;
 }
 
@@ -62,6 +60,23 @@ h3 {
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
+.font-11{
+  font-size: 11px;
+
+}
+
+.margin-0220{
+  margin: 0 220px;
+}
+
+.margin-0 {
+  margin: 0px;
+}
+
 .navbar {
   grid-area: navbar;
   border-bottom: 1px solid #dfdfdf;
@@ -83,7 +98,6 @@ h3 {
 
 .nav-icon > span {
   padding: 0 10px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14.25px;
   font-weight: 700;
 }
@@ -105,7 +119,7 @@ h3 {
   background-color: rgb(86, 123, 149);
   color: white;
   display: block;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   font-size: 13px;
   font-weight: 100;
   letter-spacing: 0.06em;
@@ -119,11 +133,9 @@ h3 {
 
 .navbar .nav-btn div button {
   margin-right: 5px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   border-radius: 3px;
   cursor: pointer;
   color: rgb(255, 255, 255);
-  font-size: 11px;
   font-weight: 700;
   background-color: #567b95;
   border: 1px solid #567b95;
@@ -132,11 +144,9 @@ h3 {
 
 .navbar .nav-btn div button:hover {
   margin-right: 5px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   border-radius: 3px;
   cursor: pointer;
   color: rgb(255, 255, 255);
-  font-size: 11px;
   font-weight: 700;
   background-color: #326891;
   border: 1px solid #326891;
@@ -148,10 +158,6 @@ h3 {
 
 .main-wrapper {
   margin: 0 100px;
-}
-
-.main-wrapper h3 {
-  margin: 0 220px;
 }
 
 .inflation-h3 {
@@ -209,7 +215,6 @@ h3 {
 }
 
 .main-wrapper .p-div {
-  margin: 0 220px;
   font-size: 20px;
 }
 
@@ -227,12 +232,10 @@ h3 {
   font-size: 15px;
   line-height: 23px;
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
 }
 
 .footer-foot span a {
-  text-decoration: none;
   color: #666;
 }
 
@@ -240,14 +243,11 @@ h3 {
 .footer-group h3 {
   line-height: 23px;
   font-size: 16px;
-  text-decoration: none;
   color: #0f0f0f;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .editors-mid .subscribe a {
   text-align: center;
-  text-decoration: none;
   color: #326891;
   font-weight: bold;
 }
@@ -255,9 +255,7 @@ h3 {
 .footer-group span a:hover {
   line-height: 23px;
   font-size: 16px;
-  text-decoration: underline;
   color: #0f0f0f;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 h4 {
@@ -290,16 +288,7 @@ h4 {
 }
 
 .editor-col .editor-row span a {
-  text-decoration: none;
   color: rgb(58, 58, 58);
-}
-
-.footer-foot span a:hover {
-  text-decoration: underline;
-}
-
-.editor-col .editor-row span a:hover {
-  text-decoration: underline;
 }
 
 .evidence-section .inflation-h3 {
@@ -308,13 +297,8 @@ h4 {
 }
 
 .last-remarks p {
-  margin: 0 220px;
   font-size: 12px;
   color: #666;
-}
-
-.evidence-section .inflation-div p {
-  margin: 0;
 }
 
 .evidence-fig-div figure {
@@ -322,26 +306,15 @@ h4 {
 }
 
 figcaption.uni-box .fig-topic {
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
-  font-size: 11px;
   font-weight: bold;
   color: #000;
 }
 
 figcaption.uni-box .fig-story {
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
   color: #000;
-}
-
-.telescope-fig figure {
-  margin: 0 220px;
-}
-
-.main-wrapper .youtube-video figure {
-  margin: 0 220px;
 }
 
 .youtube-video figure figcaption {
@@ -384,7 +357,7 @@ figcaption.uni-box .fig-story {
   text-align: right;
   font-size: 10px;
   color: #999;
-  margin: 0;
+  /* margin: 0; */
   padding: 10px 10px;
 }
 
@@ -393,7 +366,7 @@ figcaption.uni-box .fig-story {
 }
 
 .more .card-section .card-row .card-imager span.card-date {
-  font-size: 11px;
+  font-size: 12px;
   color: gray;
 }
 
@@ -422,7 +395,6 @@ figcaption.uni-box .fig-story {
   width: 15%;
   color: #0878c7;
   font-size: 12px;
-  text-decoration: none;
 }
 
 .footer-logo {
@@ -452,11 +424,8 @@ figcaption.uni-box .fig-story {
 .footer-foot {
   border-top: 1px solid #666;
   margin: 10px 0px 20px 0px;;
-  font-family: helvetica, arial, sans-serif;
-  font-size: 11px;
   justify-content: space-evenly;
   padding: 10px 0;
-  text-decoration: none;
 }
 
 .fixed-footer {
