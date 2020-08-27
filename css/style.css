@@ -55,6 +55,10 @@ h3 {
   flex-direction: column;
 }
 
+.width-hundred {
+  width: 100%;
+}
+
 .navbar {
   grid-area: navbar;
   border-bottom: 1px solid #dfdfdf;
@@ -155,10 +159,6 @@ h3 {
   width: 945px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.main-wrapper .main-image .space-ripple {
-  width: 100%;
 }
 
 .main-wrapper .main-image .caption {
@@ -277,15 +277,6 @@ h4 {
   margin-left: 20px;
 }
 
-.evidence-fig-div figure img {
-  width: 100%;
-  height: 150px;
-}
-
-.telescope-fig figure img {
-  width: 100%;
-}
-
 .editor-col .editor-row .editor-image img {
   width: 75px;
 }
@@ -387,10 +378,6 @@ figcaption.uni-box .fig-story {
   padding: 10px 10px;
 }
 
-.more .card-section .card-row .card-imager figure img {
-  width: 100%;
-}
-
 .more .card-section .card-row .card-imager figure {
   text-align: right;
   font-size: 10px;
@@ -461,7 +448,7 @@ figcaption.uni-box .fig-story {
 
 .footer-foot {
   border-top: 1px solid #666;
-  margin-top: 10px;
+  margin: 10px 0px 20px 0px;;
   font-family: helvetica, arial, sans-serif;
   font-size: 11px;
   justify-content: space-evenly;
@@ -478,10 +465,6 @@ figcaption.uni-box .fig-story {
   cursor:pointer;
   padding: 0.9rem;
   border-top: 1px solid #c1c1c1;
-}
-
-.width-size {
-  width: 100%;
 }
 
 .subscribe-span {
